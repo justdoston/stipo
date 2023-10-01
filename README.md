@@ -18,7 +18,7 @@ Welcome to Logger, a simple yet powerful tool for command logging on Linux syste
 4. [Commands](#commands)
 5. [Stopping Logger](#stopping-logger)
 6. [Examples](#examples)
-7. [License](#license)
+7. .[Advantages & Disadvantages](#adv-dis)
 
 ## Getting Started
 
@@ -71,7 +71,7 @@ To stop Logger, simply run:
 ```bash
 logger -stop
 ```
-##examples
+# Examples
 Example of using
 
 ![Screenshot from 2023-10-01 16-42-56](https://github.com/offensivecyber03/logger/assets/71892943/1e72260d-dee7-4933-91eb-e7b121b5faa7)
