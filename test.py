@@ -68,32 +68,30 @@ def execute_command(user_input):
         print(f"Error executing command: {e}")
 
 # Display initial documentation
+print("Stipo v1.0 2023© by Abdullayev Doston. Please read documentation before use.\n")
 print("Commands:")
-print("logger -start -> Start logging")
-print("logger -stop  -> Stop logging")
-print("logger -cd <directory> -> Change the working directory")
-print("logger -help -> Show this documentation")
+print("log -start -> Start logging")
+print("log -stop  -> Stop logging")
+print("exit -> Exit")
 
 # Main loop
 while True:
     cwd = os.getcwd()
     user_input = input(f"{cwd} $ ")
 
-    if user_input == "logger -start":
+    if user_input == "log -start":
         start_logging()
 
-    elif user_input == "logger -stop":
+    elif user_input == "log -stop":
         stop_logging()
 
     elif user_input.startswith("logger -cd "):
         change_directory(user_input)
 
-    elif user_input == "logger -help":
+    elif user_input == "log -help":
         print("Commands:")
-        print("logger -start -> Start logging")
-        print("logger -stop  -> Stop logging")
-        print("logger -cd <directory> -> Change the working directory")
-        print("logger -help -> Show this documentation")
+        print("log -start -> Start logging")
+        print("log -stop  -> Stop logging")
         
     elif user_input == "exit":
         break
