@@ -83,14 +83,19 @@ Example of output
 
 # Advantages & Disadvantages
 Advantages:
-Capable of capturing log with output\n
-Capable of capturing log with user info, time and location\n
-Capable of capturing more conveinent and easy to read output with .html extension\n
-For security tool will save output to /root directory when tool starts by root user.
+Capable of capturing log with output
+
+Capable of capturing log with user info, time and location
+
+Capable of capturing more conveinent and easy to read output with .html extension
+
+For security, tool will save output to /root directory when tool starts by root user.
 
 Disadvantages:
-Couldn't support when user changes made\n
-Couldn't support commands when response doesn't end like: tool calling from terminal (firefox, remmina, terminal and etc), commands with asking extra options such as asking confirmation, password, flag and etc.\n
-Couldn't support when terminal splits or changes\n
+Couldn't support when user changes made
+
+Couldn't support commands when response doesn't end like: tool calling from terminal (firefox, remmina, terminal and etc), commands with asking extra options such as asking confirmation, password, flag and etc.
+
+Couldn't support when terminal splits or changes
 
 Tool intended to use confidential operations and works.
