@@ -87,11 +87,6 @@ while True:
 
     elif user_input.startswith("logger -cd "):
         change_directory(user_input)
-
-    elif user_input == "log -help":
-        print("Commands:")
-        print("log -start -> Start logging")
-        print("log -stop  -> Stop logging")
         
     elif user_input == "exit":
         break
