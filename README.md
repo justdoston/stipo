@@ -18,7 +18,7 @@ Welcome to Logger, a simple yet powerful tool for command logging on Linux syste
 4. [Commands](#commands)
 5. [Stopping Logger](#stopping-logger)
 6. [Examples](#examples)
-7. [Advantages & Disadvantages](#adv-dis)
+7. [Advantages & Disadvantages](#advantages--disadvantages)
 
 ## Getting Started
 
