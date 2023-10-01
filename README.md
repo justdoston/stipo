@@ -72,9 +72,6 @@ To stop Stipo, simply run:
 log -stop
 ```
 # Examples
-Example of using
-
-![Screenshot from 2023-10-01 16-42-56](https://github.com/offensivecyber03/logger/assets/71892943/1e72260d-dee7-4933-91eb-e7b121b5faa7)
 
 Example of output
 
