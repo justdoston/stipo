@@ -39,14 +39,18 @@ To install Stipo, follow these steps:
     ```bash
     cd stipo
     ```
-
-3. You can use python script or make the Logger script executable:
+3. Install requirements:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+    
+4. You can use python script or make the Logger script executable:
 
     ```bash
     chmod +x stipo
     ```
 
-4. You can add the Logger directory to your system's PATH to run it from anywhere without specifying the path:
+5. You can add the Logger directory to your system's PATH to run it from anywhere without specifying the path:
 
     ```bash
     export PATH=$PATH:$(pwd)
