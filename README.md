@@ -1,4 +1,4 @@
-# Logger
+# Stipo
 
 **Year:** 2023
 
@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Welcome to Logger, a simple yet powerful tool for command logging on Linux systems. This documentation will guide you through the installation, usage, and features of Logger, helping you make the most of this valuable logging tool.
+Welcome to Stipo, a simple yet powerful tool for command logging on Linux systems. This documentation will guide you through the installation, usage, and features of Logger, helping you make the most of this valuable logging tool.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Welcome to Logger, a simple yet powerful tool for command logging on Linux syste
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Commands](#commands)
-5. [Stopping Logger](#stopping-logger)
+5. [Stopping Stipo](#stopping-stipo)
 6. [Examples](#examples)
 7. [Advantages & Disadvantages](#advantages--disadvantages)
 
@@ -26,24 +26,24 @@ Logger is designed to help you keep a record of commands executed on your Linux 
 
 ## Installation
 
-To install Logger, follow these steps:
+To install Stipo, follow these steps:
 
-1. Clone the Logger repository from GitHub:
+1. Clone the Stipo repository from GitHub:
 
     ```bash
-    git clone https://github.com/offensivecyber03/logger.git
+    git clone https://github.com/offensivecyber03/stipo.git
     ```
 
 2. Change your working directory to the Logger directory:
 
     ```bash
-    cd logger
+    cd stipo
     ```
 
 3. You can use python script or make the Logger script executable:
 
     ```bash
-    chmod +x logger
+    chmod +x stipo
     ```
 
 4. You can add the Logger directory to your system's PATH to run it from anywhere without specifying the path:
@@ -54,22 +54,22 @@ To install Logger, follow these steps:
 
 ## Usage
 
-Logger is designed to be user-friendly and provide valuable insights into your command execution history. You can start and stop logging at any time, change the working directory, and execute commands as needed.
+Stipo is designed to be user-friendly and provide valuable insights into your command execution history. You can start and stop logging at any time, change the working directory, and execute commands as needed.
 
 ## Commands
 
-Logger accepts the following commands:
+Stipo accepts the following commands:
 
-- `logger -start`: Start logging.
-- `logger -stop`: Stop logging.
-- `logger -exit`: Exit.
+- `log -start`: Start logging.
+- `log -stop`: Stop logging.
+- `exit`: Exit.
 
-## Stopping Logger
+## Stopping Stipo
 
-To stop Logger, simply run:
+To stop Stipo, simply run:
 
 ```bash
-logger -stop
+log -stop
 ```
 # Examples
 Example of using
