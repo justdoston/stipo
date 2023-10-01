@@ -68,7 +68,7 @@ def execute_command(user_input):
         print(f"Error executing command: {e}")
 
 # Display initial documentation
-print("Stipo v1.0 2023© by Abdullayev Doston. Please read documentation before use.\n")
+print("Stipo v1.0 2023© by Abdullayev Doston. Please read documentation before use.\nhttps://github.com/offensivecyber03/logger/blob/main/README.md")
 print("Commands:")
 print("log -start -> Start logging")
 print("log -stop  -> Stop logging")
