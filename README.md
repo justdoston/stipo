@@ -28,29 +28,32 @@ Logger is designed to help you keep a record of commands executed on your Linux 
 
 To install Stipo, follow these steps:
 
-1. Clone the Stipo repository from GitHub:
-
+1. Clone the Stipo repository from GitHub or download debian package
+    ```bash
+    dpkg -i stipo.1.0_amd64.deb
+    ```
+    or
     ```bash
     git clone https://github.com/offensivecyber03/stipo.git
     ```
 
-2. Change your working directory to the Logger directory:
+3. Change your working directory to the Logger directory:
 
     ```bash
     cd stipo
     ```
-3. Install requirements:
+4. Install requirements:
     ```bash
     pip3 install -r requirements.txt
     ```
     
-4. You can use python script or make the Logger script executable:
+5. You can use python script or make the Stipo script executable:
 
     ```bash
     chmod +x stipo
     ```
 
-5. You can add the Logger directory to your system's PATH to run it from anywhere without specifying the path:
+6. You can add the Stipo directory to your system's PATH to run it from anywhere without specifying the path:
 
     ```bash
     export PATH=$PATH:$(pwd)
