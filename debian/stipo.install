@@ -1,0 +1,5 @@
+lib usr/share/stipo/
+phpggc usr/share/stipo/
+templates usr/share/stipo/
+gadgetchains usr/share/stipo/
+debian/helper-script/stipo usr/bin/
